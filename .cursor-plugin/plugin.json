@@ -1,0 +1,32 @@
+{
+  "name": "bill-spend",
+  "displayName": "BILL Spend & Expense",
+  "version": "1.0.0",
+  "description": "Find BILL Spend & Expense (Divvy) card transactions, attach JPG/PNG receipts, and set the Category custom field.",
+  "author": {
+    "name": "Jim Phillips"
+  },
+  "homepage": "https://github.com/ergofobe/bill-cursor-connector",
+  "repository": "https://github.com/ergofobe/bill-cursor-connector",
+  "license": "MIT",
+  "keywords": [
+    "bill",
+    "divvy",
+    "spend",
+    "expense",
+    "receipts",
+    "category"
+  ],
+  "logo": "assets/logo.svg",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "BILL_SPEND_API_TOKEN": {
+        "type": "string",
+        "title": "BILL Spend API token",
+        "description": "Spend & Expense apiToken header value (Admin-generated). Not a Bearer token. Required."
+      }
+    },
+    "required": ["BILL_SPEND_API_TOKEN"]
+  }
+}
