@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "bill-spend": {
+      "command": "node",
+      "args": ["server/index.js"],
+      "env": {
+        "BILL_SPEND_API_TOKEN": "${BILL_SPEND_API_TOKEN}"
+      }
+    }
+  }
+}

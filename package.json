@@ -1,0 +1,15 @@
+{
+  "name": "bill-spend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cursor plugin MCP server for BILL Spend & Expense (Divvy) receipts and Category fields.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
